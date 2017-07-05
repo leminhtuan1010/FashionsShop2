@@ -12,6 +12,11 @@
 		CB26559E1F0CD2E800EAFA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB26559C1F0CD2E800EAFA72 /* Main.storyboard */; };
 		CB2655A01F0CD2E800EAFA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB26559F1F0CD2E800EAFA72 /* Assets.xcassets */; };
 		CB2655A31F0CD2E800EAFA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2655A11F0CD2E800EAFA72 /* LaunchScreen.storyboard */; };
+		CB2655AB1F0CD32B00EAFA72 /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2655AA1F0CD32B00EAFA72 /* ViewScroll.swift */; };
+		CB2655AF1F0CD4D800EAFA72 /* shop1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2655AC1F0CD4D800EAFA72 /* shop1-2.jpg */; };
+		CB2655B01F0CD4D800EAFA72 /* shop1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2655AD1F0CD4D800EAFA72 /* shop1-1.jpg */; };
+		CB2655B11F0CD4D800EAFA72 /* shop1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2655AE1F0CD4D800EAFA72 /* shop1-0.jpg */; };
+		CB2655B31F0CD5E600EAFA72 /* shop1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2655B21F0CD5E600EAFA72 /* shop1-3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CB26559F1F0CD2E800EAFA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2655A21F0CD2E800EAFA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2655A41F0CD2E800EAFA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2655AA1F0CD32B00EAFA72 /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
+		CB2655AC1F0CD4D800EAFA72 /* shop1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-2.jpg"; sourceTree = "<group>"; };
+		CB2655AD1F0CD4D800EAFA72 /* shop1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-1.jpg"; sourceTree = "<group>"; };
+		CB2655AE1F0CD4D800EAFA72 /* shop1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-0.jpg"; sourceTree = "<group>"; };
+		CB2655B21F0CD5E600EAFA72 /* shop1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		CB2655971F0CD2E800EAFA72 /* FashionShop2 */ = {
 			isa = PBXGroup;
 			children = (
+				CB2655B21F0CD5E600EAFA72 /* shop1-3.jpg */,
+				CB2655AC1F0CD4D800EAFA72 /* shop1-2.jpg */,
+				CB2655AD1F0CD4D800EAFA72 /* shop1-1.jpg */,
+				CB2655AE1F0CD4D800EAFA72 /* shop1-0.jpg */,
 				CB2655981F0CD2E800EAFA72 /* AppDelegate.swift */,
 				CB26559A1F0CD2E800EAFA72 /* ViewController.swift */,
 				CB26559C1F0CD2E800EAFA72 /* Main.storyboard */,
 				CB26559F1F0CD2E800EAFA72 /* Assets.xcassets */,
 				CB2655A11F0CD2E800EAFA72 /* LaunchScreen.storyboard */,
 				CB2655A41F0CD2E800EAFA72 /* Info.plist */,
+				CB2655AA1F0CD32B00EAFA72 /* ViewScroll.swift */,
 			);
 			path = FashionShop2;
 			sourceTree = "<group>";
@@ -124,8 +139,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2655AF1F0CD4D800EAFA72 /* shop1-2.jpg in Resources */,
 				CB2655A31F0CD2E800EAFA72 /* LaunchScreen.storyboard in Resources */,
+				CB2655B31F0CD5E600EAFA72 /* shop1-3.jpg in Resources */,
+				CB2655B01F0CD4D800EAFA72 /* shop1-1.jpg in Resources */,
 				CB2655A01F0CD2E800EAFA72 /* Assets.xcassets in Resources */,
+				CB2655B11F0CD4D800EAFA72 /* shop1-0.jpg in Resources */,
 				CB26559E1F0CD2E800EAFA72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2655AB1F0CD32B00EAFA72 /* ViewScroll.swift in Sources */,
 				CB26559B1F0CD2E800EAFA72 /* ViewController.swift in Sources */,
 				CB2655991F0CD2E800EAFA72 /* AppDelegate.swift in Sources */,
 			);
